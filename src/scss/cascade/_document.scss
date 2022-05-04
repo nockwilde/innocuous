@@ -13,3 +13,19 @@ html, body {
 *, *::before, *::after {
   box-sizing: border-box;
 }
+
+body {
+  font-family: $font_body;
+  background: $neutral_100;
+  letter-spacing: .025em;
+  color: $neutral_300;
+}
+
+header {
+  max-width: 1664px;
+  margin: 0 auto;
+
+  @media screen and (max-width: 1751px) {
+    max-width: 95%;
+  }
+}

@@ -4,10 +4,14 @@
 
 @import 'global/variables';
 @import 'global/reset';
+@import 'global/mixin';
+@import 'global/fonts';
 
 /* ---------------------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------- CASCADE --- */
 
-@import "cascade/document";
+@import 'cascade/document';
 @import 'cascade/text';
+@import 'cascade/header';
+@import 'cascade/hyperlink';
